@@ -17,7 +17,7 @@ if [ "x$OS" = "xLinux" ] ; then
     MODULESPACE="\\n"
 fi
 
-get_file_defined_value src/modules/modgzip/modgzip.cpp "#define     MODULE_VERSION"
+get_file_defined_value src/modules/modgzip/mod gzip.cpp "#define     MODULE_VERSION"
 ALL_VER_INFO="$ALL_VER_INFO\\tmodgzip $DEFINED_VALUE$MODULESPACE"
     
 if [ "${OS}" != "Darwin" ] ; then
